@@ -21,19 +21,19 @@ function Languages() {
                 </div>
                 <div className='col-6 col-md-6 col-lg-4'>
                     <img src={usaFlag} className="flags" alt="US English - Business Fluent" />
-                    <p className='text-white roboto mt-3'>Business Fluent</p>
+                    <p className='text-white roboto mt-3'>C1</p>
                 </div>
                 <div className='col-6 col-md-6 col-lg-4'>
                     <img src={germanyFlag} className="flags" alt="German - B1" />
-                    <p className='text-white roboto mt-3'>B1 Level</p>
+                    <p className='text-white roboto mt-3'>A2</p>
                 </div>
                 <div className='col-6 col-md-6 col-lg-4'>
                     <img src={italianFlag} className="flags" alt="Italian - Good Conversational" />
-                    <p className='text-white roboto mt-3'>Conversational</p>
+                    <p className='text-white roboto mt-3'>B1</p>
                 </div>
                 <div className='col-6 col-md-6 col-lg-4'>
                     <img src={spainFlag} className="flags" alt="Spanish - Very good understanding" />
-                    <p className='text-white roboto mt-3'>Very Good Understanding</p>
+                    <p className='text-white roboto mt-3'>B1</p>
                 </div>
             </div>
         </Container>
