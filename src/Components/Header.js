@@ -50,7 +50,7 @@ export default function Header({linkedin, github , scrollToTop}) {
       <nav className="navbar"  role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
             <a className="navbar-item bebas logo" href="#hero">
-                Rodrigo M.
+                Rodrigo Menezes
             </a>
 
             <button
