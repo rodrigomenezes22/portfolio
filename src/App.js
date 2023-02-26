@@ -97,6 +97,11 @@ function App() {
                                                         image: "images/projectgewerbe.jpg",
                                                         url: "https://www.project-gewerbe.com/"
                                                         },
+                                                        { name: "Crossover Project",
+                                                        description: "Lead group Project to Convert PSD to HTML in one day.",
+                                                        image: "images/webworld.jpg",
+                                                        url: "https://flourishing-queijadas-e24832.netlify.app/"
+                                                        },
                                                         { name: "Tajam",
                                                         description: "HTML5 and CSS Challenge during bootcamp",
                                                         image: "images/tajam.jpg",

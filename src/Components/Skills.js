@@ -19,40 +19,71 @@ function Skills() {
         <div className='row'>
             <h2 className='bebas xl-font text-start text-white mb-4' >Skills</h2>
             <div className='icons-1'>
-                <div className='icon-wrapper text-start'>
+                <div className='icon-wrapper align-items-center'>
                     <img src={htmlIcon} alt="HTML 5" className='icon-skill' />
+                    <p className='text-white roboto mt-2'>HTML5</p>
                 </div>
-                <div className='icon-wrapper text-start'>
+                <div className='icon-wrapper align-items-center'>
                     <img src={cssIcon} alt="CSS 3" className='icon-skill' />
+                    <p className='text-white roboto mt-2'>
+                        CSS3
+                    </p>
                 </div>
-                <div className='icon-wrapper text-start'>
+                <div className='icon-wrapper align-items-center'>
                     <img src={jsIcon} alt="JavaScript" className='icon-skill' />
+                    <p className='text-white roboto mt-2'>
+                        JavaScript
+                    </p>
                 </div>
-                <div className='icon-wrapper text-start'>
+                <div className='icon-wrapper align-items-center'>
                     <img src={jQuery} alt="jQuery" className='icon-skill' />
+                    <p className='text-white roboto mt-2'>
+                        jQuery
+                    </p>
                 </div>
-                <div className='icon-wrapper text-start'>
+                <div className='icon-wrapper align-items-center'>
                     <img src={phpIcon} alt="PHP" className='icon-skill' />
+                    <p className='text-white roboto mt-2'>
+                        PHP
+                    </p>
                 </div>
-                <div className='icon-wrapper text-start'>
+                <div className='icon-wrapper align-items-center'>
                     <img src={reactIcon} alt="REACT" className='icon-skill' />
+                    <p className='text-white roboto mt-2'>
+                        React
+                    </p>                    
                 </div>
             </div>
             <div className='icons-2 mt-5'>
                 <div className='icon-wrapper text-start'>
                     <img src={adobeIllustrator} alt="Adobe Illustrator" className='icon-skill' />
+                    <p className='text-white roboto mt-2'>
+                        Adobe Illustrator
+                    </p>
                 </div>
                 <div className='icon-wrapper text-start'>
                     <img src={adobePhotoshop} alt="Adobe Photoshop" className='icon-skill' />
+                    <p className='text-white roboto mt-2'>
+                        adobePhotoshop
+                    </p>
                 </div>
                 <div className='icon-wrapper text-start'>
                     <img src={adobeXD} alt="Adobe XD" className='icon-skill' />
+                    <p className='text-white roboto mt-2'>
+                        Adobe XD
+                    </p>
                 </div>
                 <div className='icon-wrapper text-start'>
                     <img src={adobePremiere} alt="Adobe Premiere" className='icon-skill' />
+                    <p className='text-white roboto mt-2'>
+                        Adobe Premiere
+                    </p>
                 </div>
                 <div className='icon-wrapper text-start'>
                     <img src={adobeAfferEffects} alt="Adobe After Effects" className='icon-skill' />
+                    <p className='text-white roboto mt-2'>
+                        Adobe After Effects
+                    </p>
                 </div>
 
             </div>
