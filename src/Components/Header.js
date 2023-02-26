@@ -92,10 +92,10 @@ export default function Header({linkedin, github , scrollToTop}) {
 
             <div className="navbar-item">
                 <div className="buttons">
-                <a className="icon">
+                <a className="icon" href='https://www.linkedin.com/in/rodrigo-menezes-3611a4168/' target="_blank">
                 <img src={linkedin} />
                 </a>
-                <a className="icon">
+                <a className="icon" href='https://github.com/rodrigomenezes22' target="_blank">
                 <img src={github} />
                 </a>
                 </div>
