@@ -70,6 +70,12 @@ function App() {
                                                           description: "Bootcamp project using React, Bootstrap and Contentful",
                                                           image: "images/chomp.jpg",
                                                           url: "https://genuine-khapse-443a51.netlify.app/"
+                                                        }
+                                                        ,
+                                                        { name: "Hacker News",
+                                                        description: "React Challenge to Connect with API",
+                                                        image: "images/hackernews.jpg",
+                                                        url: "https://rodrigomenezes22.github.io/hacker-news/"
                                                         },
                                                         { name: "Tekvisual",
                                                         description: "CSS Maintenance on Wordpress and PHP",
