@@ -55,31 +55,31 @@ function Skills() {
                 </div>
             </div>
             <div className='icons-2 mt-5'>
-                <div className='icon-wrapper text-start'>
+                <div className='icon-wrapper align-items-center'>
                     <img src={adobeIllustrator} alt="Adobe Illustrator" className='icon-skill' />
                     <p className='text-white roboto mt-2'>
                         Adobe Illustrator
                     </p>
                 </div>
-                <div className='icon-wrapper text-start'>
+                <div className='icon-wrapper align-items-center'>
                     <img src={adobePhotoshop} alt="Adobe Photoshop" className='icon-skill' />
                     <p className='text-white roboto mt-2'>
                         adobePhotoshop
                     </p>
                 </div>
-                <div className='icon-wrapper text-start'>
+                <div className='icon-wrapper align-items-center'>
                     <img src={adobeXD} alt="Adobe XD" className='icon-skill' />
                     <p className='text-white roboto mt-2'>
                         Adobe XD
                     </p>
                 </div>
-                <div className='icon-wrapper text-start'>
+                <div className='icon-wrapper align-items-center'>
                     <img src={adobePremiere} alt="Adobe Premiere" className='icon-skill' />
                     <p className='text-white roboto mt-2'>
                         Adobe Premiere
                     </p>
                 </div>
-                <div className='icon-wrapper text-start'>
+                <div className='icon-wrapper align-items-center'>
                     <img src={adobeAfferEffects} alt="Adobe After Effects" className='icon-skill' />
                     <p className='text-white roboto mt-2'>
                         Adobe After Effects

@@ -522,4 +522,9 @@ form {
     justify-content: center;
   }
 
+  #skills {
+    height: auto;
+    padding: 3rem 1rem;
+  }
+
 }
