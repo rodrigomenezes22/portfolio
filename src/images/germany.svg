@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 110">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3e4347;
+      }
+
+      .cls-2 {
+        fill: #ffe62e;
+      }
+
+      .cls-3 {
+        fill: #ed4c5c;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="flag-for-germany-svgrepo-com">
+      <path id="Path_54" data-name="Path 54" class="cls-1" d="m55,0C31.69,0,10.91,14.69,3.12,36.67h103.77C99.09,14.69,78.31,0,55,0Z"/>
+      <path id="Path_55" data-name="Path 55" class="cls-2" d="m55,110c23.34.07,44.16-14.65,51.88-36.67H3.12c7.73,22.02,28.55,36.73,51.88,36.67Z"/>
+      <path id="Path_56" data-name="Path 56" class="cls-3" d="m3.12,36.67c-4.16,11.87-4.16,24.8,0,36.67h103.77c4.16-11.87,4.16-24.8,0-36.67H3.12"/>
+    </g>
+  </g>
+</svg>

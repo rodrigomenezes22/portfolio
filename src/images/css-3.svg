@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79.72 91.11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #334eda;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path id="Icon_simple-css3" data-name="Icon simple-css3" class="cls-1" d="m0,0h79.72l-7.25,81.86-32.7,9.25-32.51-9.26L0,0Zm64.88,16.75H14.84s.81,9.95.81,9.95h38.44s-.97,10.32-.97,10.32h-25.2l.91,9.77h23.47l-1.39,13.37-11.05,3.05-11.22-3.08-.71-8.01h-9.91l1.1,14.64,20.75,6.47,20.4-5.81,4.62-50.66h0Z"/>
+  </g>
+</svg>

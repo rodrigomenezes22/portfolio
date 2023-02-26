@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109.45 109">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f0f0f0;
+      }
+
+      .cls-2 {
+        fill: #d80027;
+      }
+
+      .cls-3 {
+        fill: #6da544;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="italy-svgrepo-com">
+      <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-1" cx="54.5" cy="54.5" r="54.5"/>
+      <path id="Path_57" data-name="Path 57" class="cls-2" d="m109.45,54.28c0-22.89-14.24-43.36-35.69-51.32v102.65c21.45-7.97,35.69-28.44,35.69-51.32Z"/>
+      <path id="Path_58" data-name="Path 58" class="cls-3" d="m0,54.28c0,22.89,14.24,43.36,35.69,51.32V2.96C14.24,10.93,0,31.4,0,54.28Z"/>
+    </g>
+  </g>
+</svg>
