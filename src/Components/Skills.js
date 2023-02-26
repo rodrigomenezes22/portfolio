@@ -58,13 +58,13 @@ function Skills() {
                 <div className='icon-wrapper align-items-center'>
                     <img src={adobeIllustrator} alt="Adobe Illustrator" className='icon-skill' />
                     <p className='text-white roboto mt-2'>
-                        Adobe Illustrator
+                        Illustrator
                     </p>
                 </div>
                 <div className='icon-wrapper align-items-center'>
                     <img src={adobePhotoshop} alt="Adobe Photoshop" className='icon-skill' />
                     <p className='text-white roboto mt-2'>
-                        adobePhotoshop
+                        Photoshop
                     </p>
                 </div>
                 <div className='icon-wrapper align-items-center'>
@@ -76,13 +76,13 @@ function Skills() {
                 <div className='icon-wrapper align-items-center'>
                     <img src={adobePremiere} alt="Adobe Premiere" className='icon-skill' />
                     <p className='text-white roboto mt-2'>
-                        Adobe Premiere
+                        Premiere
                     </p>
                 </div>
                 <div className='icon-wrapper align-items-center'>
                     <img src={adobeAfferEffects} alt="Adobe After Effects" className='icon-skill' />
                     <p className='text-white roboto mt-2'>
-                        Adobe After Effects
+                        After Effects
                     </p>
                 </div>
 
