@@ -2,6 +2,7 @@
 import React, { useRef, useEffect, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
+
 export const Form = () => {
     const form = useRef();
   
@@ -13,7 +14,7 @@ export const Form = () => {
       e.preventDefault();
       
   
-      emailjs.sendForm('service_mna86l9', 'template_6wr6kze', form.current, 'VNOADlxTbV8JQNdjl')
+      emailjs.sendForm(process.env.REACT_APP_SERVE_FORM, process.env.REACT_APP_TEMPLATE_FORM, form.current, process.env.REACT_APP_KEY_FORM)
         .then((result) => {
             console.log(result.text);
             setSentEmail(true);
