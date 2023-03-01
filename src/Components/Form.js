@@ -51,7 +51,7 @@ export const Form = () => {
             <textarea name="message" className='textarea mb-4' />
             <button type="submit" onClick={()=> setTimeout(emailSubmit, 10000)} className={emailEnviado? 'btn btn-success' : 'btn btn-primary' } id="button-form">
                 {emailEnviado? <span className="material-symbols-sharp">check_circle</span> : null}
-                {emailEnviado? 'E-mail Enviado' : 'Submit' } 
+                {emailEnviado? 'E-mail Sent!' : 'Submit' } 
             </button>
             </form>
 
