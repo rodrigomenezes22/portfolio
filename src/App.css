@@ -46,14 +46,6 @@
   pointer-events: none;
 }
 
-.navbar-item {
-  transition: background-color 1s;
-}
-
-.navbar-item.active {
-  background-color: white;
-  color: black;
-}
 
 .sticky {
   position: fixed;
@@ -419,9 +411,21 @@ form {
   }
 }
 
+
+
 @media only screen and (min-width:1024px) {
   .navbar-toggler {
     display: none;
+  }
+
+
+  .navbar-item {
+    transition: background-color 1s;
+  }
+
+  .navbar-item.active {
+    background-color: white;
+    color: black;
   }
 }
 
