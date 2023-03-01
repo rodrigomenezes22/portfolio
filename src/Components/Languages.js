@@ -7,13 +7,13 @@ import italianFlag from '../images/italian.svg'
 import spainFlag from '../images/spanish.svg'
 
 
-function Languages() {
+function Languages({languagesSection}) {
   return (
     <div id="languages">
         <Container>
             <div className='row justify-content-center'>
                 <div className='col-sm-12'>
-                    <h2 className='bebas xl-font text-white text-start mb-5'>Languages Spoken</h2>
+                    <h2 className='bebas xl-font text-white text-start mb-5' ref={languagesSection}>Languages Spoken</h2>
                 </div>
                 <div className='col-6 col-md-6 col-lg-4'>
                     <img src={brazilFlag} className="flags" alt="Portugues - Native Speaker" />

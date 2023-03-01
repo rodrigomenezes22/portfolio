@@ -3,13 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Rodrigo from '../images/rodrigo.jpg'
 import Button from './Button'
 
-function About() {
+function About({aboutSection}) {
   return (
-    <div id="about-me">
+    <div id="about-me" >
       <Container>
-        <div className='row'>
+        <div className='row' >
             <div className='col-8 col-md-4 col-lg-3'>
-                <div className='image-round'>
+                <div className='image-round' ref={aboutSection}>
                     <img src={Rodrigo} alt="Rodrigo Menezes Web Developer" />
                 </div>
             </div>

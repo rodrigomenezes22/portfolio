@@ -4,7 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 
-function MyWork({workPortfolio}) {
+function MyWork({workPortfolio, workSection}) {
 
   const responsive = {
     superLargeDesktop: {
@@ -30,7 +30,7 @@ function MyWork({workPortfolio}) {
     <div id='work'>
         <Container>
             <div className='row text-start'>
-                <h2 className='bebas xl-font text-start'>MY WORK</h2>
+                <h2 className='bebas xl-font text-start' ref={workSection}>MY WORK</h2>
                 <div className='work-portfolio'>
                 <Carousel responsive={responsive}>
                     {workPortfolio.map((job)=>(

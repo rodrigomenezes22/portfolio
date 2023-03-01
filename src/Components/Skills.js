@@ -12,13 +12,13 @@ import adobeXD from "../images/adobe-xd.svg"
 import adobePremiere from "../images/adobe-premiere.svg"
 import adobeAfferEffects from "../images/after-effects.svg"
 
-function Skills() {
+function Skills({skillsSection}) {
   return (
     <div id='skills'>
       <Container>
-        <div className='row'>
+        <div className='row' >
             <h2 className='bebas xl-font text-start text-white mb-4' >Skills</h2>
-            <div className='icons-1'>
+            <div className='icons-1' ref={skillsSection}>
                 <div className='icon-wrapper align-items-center'>
                     <img src={htmlIcon} alt="HTML 5" className='icon-skill' />
                     <p className='text-white roboto mt-2'>HTML5</p>

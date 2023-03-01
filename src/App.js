@@ -1,6 +1,6 @@
 import './App.css';
-
 import {useState, useEffect} from 'react';
+import { useInView } from 'react-intersection-observer';
 import Header from './Components/Header';
 import linkedin  from "./images/linkedin.svg"
 import github  from "./images/github.svg"
@@ -17,6 +17,14 @@ function App() {
   const [value, setValue] = useState(null);
   const [ city, setCity ] = useState('Wandlitz');
   const [weatherMain, setWeatherMain] = useState('')
+
+  const { ref: aboutSection, inView: aboutIsVisible } = useInView();
+  const { ref: skillsSection, inView: skillsVisible } = useInView();
+  const { ref: workSection, inView: workVisible } = useInView();
+  const { ref: languagesSection, inView: languagesVisible } = useInView();
+  const { ref: contactSection, inView: contactVisible } = useInView();
+
+
 
   const fetchWeatherData = async () => {
     const API_KEY = '0d53df882698d933ae3b477ddb4be424';
@@ -117,13 +125,13 @@ function App() {
 
   return (
     <div className="App">
-      <Header linkedin={linkedin} github={github} scrollToTop={scrollToTop} />
+      <Header linkedin={linkedin} github={github} scrollToTop={scrollToTop} aboutIsVisible={aboutIsVisible} skillsVisible={skillsVisible} workVisible={workVisible} languagesVisible={languagesVisible} contactVisible={contactVisible} />
       <Hero temperatureCelsius={temperatureCelsius} city={city} determineValue={determineValue} weatherMain={weatherMain} />
-      <About />
-      <Skills />
-      <MyWork workPortfolio={workPortfolio} />
-      <Languages />
-      <Contact />
+      <About aboutSection={aboutSection} />
+      <Skills skillsSection={skillsSection} />
+      <MyWork workPortfolio={workPortfolio} workSection={workSection} />
+      <Languages languagesSection={languagesSection} />
+      <Contact contactSection={contactSection} />
     </div>
   );
 }

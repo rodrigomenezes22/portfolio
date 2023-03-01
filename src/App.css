@@ -46,6 +46,15 @@
   pointer-events: none;
 }
 
+.navbar-item {
+  transition: background-color 1s;
+}
+
+.navbar-item.active {
+  background-color: white;
+  color: black;
+}
+
 .sticky {
   position: fixed;
   width: 100%;

@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 
 
-export default function Header({linkedin, github , scrollToTop}) {
+export default function Header({linkedin, github , scrollToTop, aboutIsVisible, skillsVisible, workVisible, languagesVisible, contactVisible }) {
 
 
     const [isScrolled, setIsScrolled] = useState(false);
@@ -73,20 +73,20 @@ export default function Header({linkedin, github , scrollToTop}) {
             </div>
 
             <div className="navbar-end">
-            <a className="navbar-item" href='#about-me' onClick={closeMenu}>
+            <a className={aboutIsVisible ? "navbar-item active" : "navbar-item"  }       href='#about-me' onClick={closeMenu}>
                 About
             </a>
 
-            <a className="navbar-item"  href='#skills' onClick={closeMenu}>
+            <a className={skillsVisible ? "navbar-item active" : "navbar-item"  }  href='#skills' onClick={closeMenu}>
                 Skills
             </a>
-            <a className="navbar-item"  href='#work' onClick={closeMenu}>
+            <a className={workVisible ? "navbar-item active" : "navbar-item"  }   href='#work' onClick={closeMenu}>
                 Work
             </a>
-            <a className="navbar-item"  href='#languages' onClick={closeMenu}>
+            <a className={languagesVisible ? "navbar-item active" : "navbar-item"  }   href='#languages' onClick={closeMenu}>
                 Languages
             </a>
-            <a className="navbar-item"  href='#contact' onClick={closeMenu}>
+            <a className={contactVisible ? "navbar-item active" : "navbar-item"  }   href='#contact' onClick={closeMenu}>
                 Contact
             </a>
 

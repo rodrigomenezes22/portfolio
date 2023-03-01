@@ -3,13 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Button from './Button'
 import Form from './Form'
 
-function Contact() {
+function Contact({contactSection}) {
   return (
     <div id='contact'>
         <div className='container-fluid'>
         <div className='row'>
           
-            <div className='col-sm-12 col-md-8 phone'>
+            <div className='col-sm-12 col-md-8 phone' ref={contactSection}>
               <div className='contact-wrapper'>
                 <h2 className='bebas xl-font'>Contact Me</h2>
                 <p>You can call me, message me or submit a form.</p>
