@@ -74,7 +74,14 @@ function App() {
 
     }
 
-    const [workPortfolio, setWorkPortfolio] = useState([{ name: "Chomp",
+    const [workPortfolio, setWorkPortfolio] = useState([
+                                                        { name: "MyHomeServices",
+                                                          description: "Final Project built with PERN Stack, it has two login options and it works for People to find Service Providers.",
+                                                          image: "images/myhomeservices.jpg",
+                                                          url: "https://myhomeservices.onrender.com/"
+                                                        }
+                                                        ,
+                                                        { name: "Chomp",
                                                           description: "Bootcamp project using React, Bootstrap and Contentful",
                                                           image: "images/chomp.jpg",
                                                           url: "https://genuine-khapse-443a51.netlify.app/"
