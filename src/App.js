@@ -76,7 +76,7 @@ function App() {
 
     const [workPortfolio, setWorkPortfolio] = useState([
                                                         { name: "MyHomeServices",
-                                                          description: "Final Project built with PERN Stack, it has two login options and it works for People to find Service Providers.",
+                                                          description: "Final Project built with PERN Stack - The Server is on a Free Deployment, so it can take 30 seconds or more to start.",
                                                           image: "images/myhomeservices.jpg",
                                                           url: "https://myhomeservices.onrender.com/"
                                                         }
