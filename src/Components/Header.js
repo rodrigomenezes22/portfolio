@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import Logo from "../../public/logo-cleveland-web-final.svg";
+import Logo from "../../src/images/logo-cleveland-web-final.svg";
 
 export default function Header({
   linkedin,
@@ -59,8 +59,8 @@ export default function Header({
             role="navigation"
             aria-label="main navigation">
             <div className="navbar-brand">
-              <a className="navbar-item bebas logo" href="#hero">
-                <img src={Logo} alt="Cleveland Web" width={100} height={50} />
+              <a href="#hero">
+                <img src={Logo} alt="Cleveland Web" width={120} height={80} />
               </a>
 
               <button
@@ -98,12 +98,7 @@ export default function Header({
                   onClick={closeMenu}>
                   Skills
                 </a>
-                <a
-                  className={workVisible ? "navbar-item active" : "navbar-item"}
-                  href="#work"
-                  onClick={closeMenu}>
-                  Work
-                </a>
+
                 <a
                   className={
                     languagesVisible ? "navbar-item active" : "navbar-item"
