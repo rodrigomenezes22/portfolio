@@ -20,6 +20,7 @@ function App() {
   const { ref: aboutSection, inView: aboutIsVisible } = useInView();
   const { ref: skillsSection, inView: skillsVisible } = useInView();
   const { ref: workSection, inView: workVisible } = useInView();
+  const { ref: heroSection, inView: heroVisible } = useInView();
   const { ref: languagesSection, inView: languagesVisible } = useInView();
   const { ref: contactSection, inView: contactVisible } = useInView();
 
@@ -138,6 +139,7 @@ function App() {
         linkedin={linkedin}
         github={github}
         scrollToTop={scrollToTop}
+        heroVisible={heroVisible}
         aboutIsVisible={aboutIsVisible}
         skillsVisible={skillsVisible}
         workVisible={workVisible}
@@ -149,6 +151,7 @@ function App() {
         city={city}
         determineValue={determineValue}
         weatherMain={weatherMain}
+        heroSection={heroSection}
       />
       <About aboutSection={aboutSection} />
       <Skills skillsSection={skillsSection} />

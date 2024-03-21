@@ -9,6 +9,7 @@ export default function Header({
   aboutIsVisible,
   skillsVisible,
   workVisible,
+  heroVisible,
   languagesVisible,
   contactVisible,
 }) {
@@ -82,6 +83,13 @@ export default function Header({
 
               <div className="navbar-end">
                 <a
+                  className={heroVisible ? "navbar-item active" : "navbar-item"}
+                  href="#hero"
+                  onClick={closeMenu}>
+                  Home
+                </a>
+
+                <a
                   className={
                     aboutIsVisible ? "navbar-item active" : "navbar-item"
                   }
@@ -115,23 +123,6 @@ export default function Header({
                   onClick={closeMenu}>
                   Contact
                 </a>
-
-                <div className="navbar-item">
-                  <div className="buttons">
-                    <a
-                      className="icon"
-                      href="https://www.linkedin.com/in/rodrigo-menezes-3611a4168/"
-                      target="_blank">
-                      <img src={linkedin} />
-                    </a>
-                    <a
-                      className="icon"
-                      href="https://github.com/rodrigomenezes22"
-                      target="_blank">
-                      <img src={github} />
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
           </nav>
