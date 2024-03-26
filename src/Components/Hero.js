@@ -22,10 +22,7 @@ function Hero({
             initial={{ x: "-100px", opacity: 0 }}
             animate={{ x: "0", opacity: 1 }}
             transition={{ duration: 1.5, delay: 0.5 }}>
-            <p className="subtitle">
-              Tansform Your Ideas into Reality with My Full-Stack Development
-              Solutions
-            </p>
+            <p className="subtitle">Tansform Your Ideas into Reality</p>
           </motion.div>
           <motion.div
             initial={{ x: "-100px", opacity: 0 }}
