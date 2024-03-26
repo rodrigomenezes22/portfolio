@@ -31,20 +31,7 @@ function Languages({ languagesSection }) {
               </h2>
             </motion.div>
           </div>
-          <div className="col-6 col-md-6 col-lg-4">
-            <motion.div
-              variants={fadeInLeftToRight}
-              transition={{ duration: 1.5, delay: 0.25 }}
-              initial="initial"
-              whileInView="animate"
-              viewport={{ once: true }}>
-              <img
-                src={brazilFlag}
-                className="flags"
-                alt="Portugues - Native Speaker"
-              />
-            </motion.div>
-          </div>
+
           <div className="col-6 col-md-6 col-lg-4">
             <motion.div
               variants={fadeInLeftToRight}
@@ -56,6 +43,20 @@ function Languages({ languagesSection }) {
                 src={usaFlag}
                 className="flags"
                 alt="US English - Business Fluent"
+              />
+            </motion.div>
+          </div>
+          <div className="col-6 col-md-6 col-lg-4">
+            <motion.div
+              variants={fadeInLeftToRight}
+              transition={{ duration: 1.5, delay: 0.25 }}
+              initial="initial"
+              whileInView="animate"
+              viewport={{ once: true }}>
+              <img
+                src={brazilFlag}
+                className="flags"
+                alt="Portugues - Native Speaker"
               />
             </motion.div>
           </div>

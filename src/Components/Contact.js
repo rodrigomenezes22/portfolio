@@ -12,8 +12,9 @@ function Contact({ contactSection }) {
             <div className="contact-wrapper">
               <h2 className="bebas xl-font">Contact New York Web</h2>
               <p>You can call us at:</p>
-              <p>USA +1 561 503 2419</p>
-              <p>Brazil +55 15 99755 8203</p>
+              <p>New York City +1 917 675 4842</p>
+              <p>Boca Raton +1 561 503 2419</p>
+              <p>Florianópolis - BR +55 15 99755 8203</p>
             </div>
           </div>
 
