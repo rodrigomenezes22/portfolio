@@ -14,7 +14,7 @@ import Contact from "./Components/Contact";
 function App() {
   const [weatherData, setWeatherData] = useState(null);
   const [value, setValue] = useState(null);
-  const [city, setCity] = useState("Cleveland");
+  const [city, setCity] = useState("New York");
   const [weatherMain, setWeatherMain] = useState("");
 
   const { ref: aboutSection, inView: aboutIsVisible } = useInView();
