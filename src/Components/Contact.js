@@ -10,9 +10,8 @@ function Contact({ contactSection }) {
         <div className="row">
           <div className="col-sm-12 col-md-8 phone" ref={contactSection}>
             <div className="contact-wrapper">
-              <h2 className="bebas xl-font">Contact Cleveland Web</h2>
+              <h2 className="bebas xl-font">Contact New York Web</h2>
               <p>You can call us at:</p>
-              <p>Germany +176 146 72724</p>
               <p>USA +1 561 503 2419</p>
               <p>Brazil +55 15 99755 8203</p>
             </div>

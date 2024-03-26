@@ -39,7 +39,7 @@ function About({ aboutSection }) {
               whileInView="animate"
               viewport={{ once: true }}>
               <p className="roboto lg-font">
-                At Cleveland Web, we're passionate about crafting exceptional
+                At New York Web, we're passionate about crafting exceptional
                 online experiences. With a team of dedicated professionals, we
                 specialize in creating stunning websites tailored to meet your
                 unique needs. From design to development, we're committed to
@@ -54,7 +54,7 @@ function About({ aboutSection }) {
               whileInView="animate"
               viewport={{ once: true }}>
               <p className="roboto lg-font">
-                At Cleveland Web, our focus is on empowering small to
+                At New York Web, our focus is on empowering small to
                 medium-sized businesses with quick and affordable website
                 solutions. With a dedicated team of professionals, we specialize
                 in crafting stunning websites tailored to meet your unique
