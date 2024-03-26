@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import Logo from "../../src/images/logo-cleveland-web-final.svg";
+import Logo from "../../src/images/logo-new-york.svg";
 
 export default function Header({
   linkedin,
