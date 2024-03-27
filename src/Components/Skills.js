@@ -22,6 +22,20 @@ function Skills({ skillsSection }) {
     <div id="skills">
       <Container>
         <div className="row">
+          <motion.div
+            variants={fadeInLeftToRight}
+            transition={{ duration: 1.5 }}
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}>
+            <h2
+              className="xl-font bebas text-white"
+              style={{ paddingBottom: "2rem", textAlign: "left" }}>
+              TECH STACK{" "}
+            </h2>
+          </motion.div>
+        </div>
+        <div className="row">
           <div className="icons-1" ref={skillsSection}>
             <motion.div
               variants={fadeInLeftToRight}

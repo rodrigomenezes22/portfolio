@@ -16,13 +16,15 @@ function Hero({
             initial={{ x: "-100px", opacity: 0 }}
             animate={{ x: "0", opacity: 1 }}
             transition={{ duration: 1.5 }}>
-            <h1 className=" bebas xxl-font">WEB DEVELOPMENT</h1>
+            <h1 className=" bebas xxl-font" style={{ marginBottom: "0px" }}>
+              NEW YORK
+            </h1>
           </motion.div>
           <motion.div
             initial={{ x: "-100px", opacity: 0 }}
             animate={{ x: "0", opacity: 1 }}
             transition={{ duration: 1.5, delay: 0.5 }}>
-            <p className="subtitle">Tansform Your Ideas into Reality</p>
+            <p className="is-size-3 text-white">WEB DEVELOPMENT</p>
           </motion.div>
           <motion.div
             initial={{ x: "-100px", opacity: 0 }}

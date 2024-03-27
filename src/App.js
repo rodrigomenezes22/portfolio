@@ -153,8 +153,9 @@ function App() {
         weatherMain={weatherMain}
         heroSection={heroSection}
       />
-      <About aboutSection={aboutSection} />
       <Skills skillsSection={skillsSection} />
+      <About aboutSection={aboutSection} />
+
       {/* <MyWork workPortfolio={workPortfolio} workSection={workSection} /> */}
       <Languages languagesSection={languagesSection} />
       <Contact contactSection={contactSection} />

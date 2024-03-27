@@ -81,12 +81,20 @@ export default function Header({
               className={isClassActive ? "navbar-menu" : "navbar-menu open"}>
               <div className="navbar-start"></div>
 
-              <div className="navbar-end">
+              <div className="navbar-end" style={{ gap: ".5rem" }}>
                 <a
                   className={heroVisible ? "navbar-item active" : "navbar-item"}
                   href="#hero"
                   onClick={closeMenu}>
                   Home
+                </a>
+                <a
+                  className={
+                    skillsVisible ? "navbar-item active" : "navbar-item"
+                  }
+                  href="#skills"
+                  onClick={closeMenu}>
+                  Stack
                 </a>
 
                 <a
@@ -96,15 +104,6 @@ export default function Header({
                   href="#about-me"
                   onClick={closeMenu}>
                   About
-                </a>
-
-                <a
-                  className={
-                    skillsVisible ? "navbar-item active" : "navbar-item"
-                  }
-                  href="#skills"
-                  onClick={closeMenu}>
-                  Skills
                 </a>
 
                 <a
